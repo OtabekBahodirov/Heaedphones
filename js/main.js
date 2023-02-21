@@ -125,7 +125,7 @@ function addProductToCart(title, price, productImg) {
 }
 
 // Update Total    
-function updatetotal() {
+function updatetotal() {    
     var cartContent = document.getElementsByClassName("cart-content")[0];
     var cartBoxes = cartContent.getElementsByClassName("cart-box");
     var total = 0;
